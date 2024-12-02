@@ -1,12 +1,11 @@
 # Bring Visual Pinball to Front
 
-This VB.NET program is designed to monitor the start and stop of specific Visual Pinball processes and bring the associated window to the front. It minimizes itself to the system tray and includes logging functionality to track its actions.
+This VB.NET program is a lightweight Visual Pinball helper designed to run in the background. It monitors the start and stop of specific Visual Pinball processes and brings the associated window to the front. The application minimizes itself to the system tray and includes logging functionality to track its actions.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Functions](#functions)
 - [Logging](#logging)
 - [Contributing](#contributing)
 - [License](#license)
@@ -35,59 +34,6 @@ This VB.NET program is designed to monitor the start and stop of specific Visual
 
 3. **Check logs:**
     - Logs of the program’s actions are displayed in the main window’s RichTextBox.
-
-## Functions
-
-### Form Events
-
-#### `Form1_Load`
-- Initializes the form on load.
-
-#### `Form1_FormClosing`
-- Handles form closing event.
-
-### Process Watchers
-
-#### `ProcessStartWatcher_EventArrived`
-- Handles the start of processes.
-
-#### `ProcessStopWatcher_EventArrived`
-- Handles the stop of processes.
-
-### Utility Functions
-
-#### `Delay`
-- Creates an asynchronous delay.
-
-#### `ActivateWindow`
-- Activates a window by its title.
-
-### Form Behavior
-
-#### `Form1_Resize`
-- Handles form resize events.
-
-#### `Form1_Closing`
-- Handles form closing.
-
-#### `NotifyIcon1_DoubleClick`
-- Handles system tray icon double-click.
-
-#### `NotifyIcon1_Click`
-- Handles system tray icon click.
-
-### Logging
-
-#### `LogAnError`
-- Logs errors.
-
-#### `UpdateLog`
-- Logs actions.
-
-### Process Helper Class
-
-#### `GetActiveProcess`
-- Retrieves the active process.
 
 ## Logging
 
