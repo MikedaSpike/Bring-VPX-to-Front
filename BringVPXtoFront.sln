@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BringVPtoFront", "BringVPXtoFront\BringVPtoFront.vbproj", "{AC5E0F81-05AE-4114-8389-DBDD3B3CA71B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC5E0F81-05AE-4114-8389-DBDD3B3CA71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5E0F81-05AE-4114-8389-DBDD3B3CA71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5E0F81-05AE-4114-8389-DBDD3B3CA71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5E0F81-05AE-4114-8389-DBDD3B3CA71B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6456C533-742B-4F15-8F23-83BF4C7C04A9}
+	EndGlobalSection
+EndGlobal
